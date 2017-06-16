@@ -62,19 +62,19 @@ var _axios2 = _interopRequireDefault(_axios);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = '/home/clouduser/knowledgeview/nextjs-ssr/pages/ssr.js?entry';
+var _jsxFileName = '/home/clouduser/knowledgeview/nextjs-ssr/pages/index.js?entry';
 
 
-var Ssr = function (_Component) {
-  (0, _inherits3.default)(Ssr, _Component);
+var Index = function (_Component) {
+  (0, _inherits3.default)(Index, _Component);
 
-  function Ssr() {
-    (0, _classCallCheck3.default)(this, Ssr);
+  function Index() {
+    (0, _classCallCheck3.default)(this, Index);
 
-    return (0, _possibleConstructorReturn3.default)(this, (Ssr.__proto__ || (0, _getPrototypeOf2.default)(Ssr)).apply(this, arguments));
+    return (0, _possibleConstructorReturn3.default)(this, (Index.__proto__ || (0, _getPrototypeOf2.default)(Index)).apply(this, arguments));
   }
 
-  (0, _createClass3.default)(Ssr, [{
+  (0, _createClass3.default)(Index, [{
     key: 'Shows',
     value: function Shows(props) {
       var listShows = props.shows.map(function (tv) {
@@ -82,7 +82,7 @@ var Ssr = function (_Component) {
             fileName: _jsxFileName,
             lineNumber: 24
           }
-        }, tv.show.name, ' | score - ', tv.score);
+        }, 'Title: ', tv.show.name, ' | Score: ', tv.score);
       });
       return _react2.default.createElement('ul', {
         __source: {
@@ -115,7 +115,7 @@ var Ssr = function (_Component) {
           fileName: _jsxFileName,
           lineNumber: 38
         }
-      }, 'SSR'), _react2.default.createElement('meta', { name: 'viewport', content: 'initial-scale=1.0, width=device-width', 'data-jsx-ext': _style4.default.__scopedHash,
+      }, 'Index'), _react2.default.createElement('meta', { name: 'viewport', content: 'initial-scale=1.0, width=device-width', 'data-jsx-ext': _style4.default.__scopedHash,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 39
@@ -131,7 +131,7 @@ var Ssr = function (_Component) {
           fileName: _jsxFileName,
           lineNumber: 42
         }
-      }, 'SSR Page!'), _react2.default.createElement('p', {
+      }, 'Index Page!'), _react2.default.createElement('p', {
         'data-jsx-ext': _style4.default.__scopedHash,
         __source: {
           fileName: _jsxFileName,
@@ -159,7 +159,8 @@ var Ssr = function (_Component) {
                 return new _promise2.default(function (resolve) {
                   var request = _axios2.default.get('http://api.tvmaze.com/search/shows?q=girls').then(function (res) {
                     data = { shows: res.data };
-                    resolve(res.data);
+                    console.log(res.data);
+                    resolve();
                   }).catch(function (error) {
                     console.log(error);
                   });
@@ -184,7 +185,7 @@ var Ssr = function (_Component) {
     }()
   }]);
 
-  return Ssr;
+  return Index;
 }(_react.Component);
 
-exports.default = Ssr;
+exports.default = Index;

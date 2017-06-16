@@ -1,54 +1,60 @@
-'use strict';
+webpackHotUpdate(5,{
+
+/***/ 570:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _regenerator = require('babel-runtime/regenerator');
+var _regenerator = __webpack_require__(66);
 
 var _regenerator2 = _interopRequireDefault(_regenerator);
 
-var _asyncToGenerator2 = require('babel-runtime/helpers/asyncToGenerator');
+var _asyncToGenerator2 = __webpack_require__(64);
 
 var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
-var _getPrototypeOf = require('babel-runtime/core-js/object/get-prototype-of');
+var _getPrototypeOf = __webpack_require__(39);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = require('babel-runtime/helpers/classCallCheck');
+var _classCallCheck2 = __webpack_require__(15);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = require('babel-runtime/helpers/createClass');
+var _createClass2 = __webpack_require__(16);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = require('babel-runtime/helpers/possibleConstructorReturn');
+var _possibleConstructorReturn2 = __webpack_require__(42);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = require('babel-runtime/helpers/inherits');
+var _inherits2 = __webpack_require__(41);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
-var _style = require('styled-jsx/style.js');
+var _style = __webpack_require__(546);
 
 var _style2 = _interopRequireDefault(_style);
 
-var _react = require('react');
+var _react = __webpack_require__(12);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _head = require('next/dist/lib/head.js');
+var _head = __webpack_require__(195);
 
 var _head2 = _interopRequireDefault(_head);
 
-var _link = require('next/dist/lib/link.js');
+var _link = __webpack_require__(569);
 
 var _link2 = _interopRequireDefault(_link);
 
-var _style3 = require('../style/style');
+var _style3 = __webpack_require__(545);
 
 var _style4 = _interopRequireDefault(_style3);
 
@@ -163,3 +169,10 @@ var Header = function (_Component) {
 
 
 exports.default = Header;
+
+ ;(function register() { /* react-hot-loader/webpack */ if (true) { if (typeof __REACT_HOT_LOADER__ === 'undefined') { return; } if (typeof module.exports === 'function') { __REACT_HOT_LOADER__.register(module.exports, 'module.exports', "/home/clouduser/knowledgeview/nextjs-ssr/layout/header.js"); return; } for (var key in module.exports) { if (!Object.prototype.hasOwnProperty.call(module.exports, key)) { continue; } var namedExport = void 0; try { namedExport = module.exports[key]; } catch (err) { continue; } __REACT_HOT_LOADER__.register(namedExport, key, "/home/clouduser/knowledgeview/nextjs-ssr/layout/header.js"); } } })();
+
+/***/ })
+
+})
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiNS4zMTU4ODUzYjQzOWQ2NGM0MWEzMS5ob3QtdXBkYXRlLmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vbGF5b3V0L2hlYWRlci5qcz9iYjJiIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCwgeyBDb21wb25lbnQgfSBmcm9tICdyZWFjdCdcbmltcG9ydCBIZWFkIGZyb20gJ25leHQvaGVhZCdcbmltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluaydcbmltcG9ydCAgdGVzdGRpdiBmcm9tICcuLi9zdHlsZS9zdHlsZSdcbmV4cG9ydCBkZWZhdWx0IGNsYXNzIEhlYWRlciBleHRlbmRzIENvbXBvbmVudCB7XG4gIHN0YXRpYyBhc3luYyBnZXRJbml0aWFsUHJvcHMgKCkge1xuXG4gICAgcmV0dXJuIHt9XG4gIH1cblxuICByZW5kZXIgKCkge1xuICAgIHJldHVybiAoXG4gICAgICA8ZGl2PlxuICAgICAgICA8c3R5bGUganN4Pnt0ZXN0ZGl2fTwvc3R5bGU+XG4gICAgICAgIDx1bD5cbiAgICAgICAgICA8bGkgY2xhc3NOYW1lPVwibmF2TGlua1wiPjxMaW5rIGhyZWY9XCIvaW5kZXhcIiBwcmVmZXRjaD48YT5Ib21lPC9hPjwvTGluaz48L2xpPlxuICAgICAgICAgIDxsaSBjbGFzc05hbWU9XCJuYXZMaW5rXCI+PExpbmsgaHJlZj1cIi9pdGVtc1wiIHByZWZldGNoPjxhPkl0ZW1zPC9hPjwvTGluaz48L2xpPlxuICAgICAgICAgIDxsaSBjbGFzc05hbWU9XCJuYXZMaW5rXCI+PExpbmsgaHJlZj1cIi9ub3QtZm91bmRcIiBwcmVmZXRjaD48YT5QYWdlNDA0PC9hPjwvTGluaz48L2xpPlxuICAgICAgICA8L3VsPlxuICAgICAgPC9kaXY+XG4gICAgKVxuICB9XG59XG4vL25vIG1vcmUgcHJlZGVmaW5lZCByb3V0ZVxuXG5cblxuLy8gV0VCUEFDSyBGT09URVIgLy9cbi8vIC4vbGF5b3V0L2hlYWRlci5qcyJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQTtBQUNBOzs7QUFBQTtBQUNBOzs7QUFBQTtBQUNBOzs7QUFBQTtBQUNBOzs7Ozs7OztBQUFBOzs7Ozs7Ozs7OztBQU9BO0FBQ0E7QUFBQTs7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBRUE7QUFGQTtBQUVBOztBQUFBO0FBQ0E7QUFEQTtBQUFBOztBQUNBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTs7QUFBQTtBQUFBO0FBQUE7QUFBQTs7QUFDQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7O0FBQUE7QUFBQTtBQUFBO0FBQUE7O0FBQ0E7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBOztBQUFBO0FBQUE7QUFBQTtBQUFBOzs7Ozs7Ozs7O0FBVkE7QUFDQTs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBSkE7QUFtQkE7QUFDQTtBQUNBO0FBckJBO0FBQ0E7Ozs7O0EiLCJzb3VyY2VSb290IjoiIn0=

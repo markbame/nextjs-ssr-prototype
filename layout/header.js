@@ -15,10 +15,6 @@ export default class Header extends Component {
         <ul>
           <li className="navLink"><Link href="/index" prefetch><a>Home</a></Link></li>
           <li className="navLink"><Link href="/items" prefetch><a>Items</a></Link></li>
-          <li className="navLink"><Link href="/cart" prefetch><a>Cart</a></Link></li>
-          <li className="navLink"><Link href="/tracking" prefetch><a>Tracking</a></Link></li>
-          <li className="navLink"><Link href="/about" prefetch><a>About</a></Link></li>
-          <li className="navLink"><Link href="/ssr" prefetch><a>SSR</a></Link></li>
           <li className="navLink"><Link href="/not-found" prefetch><a>Page404</a></Link></li>
         </ul>
       </div>
